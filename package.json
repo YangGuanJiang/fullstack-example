@@ -1,0 +1,12 @@
+{
+  "name": "fullstack-example",
+  "private": true,
+  "workspaces": [
+    "*"
+  ],
+  "scripts": {
+    "dev:server": "yarn workspace server dev",
+    "db:migrate": "yarn workspace server migrate",
+    "db:studio": "yarn workspace server prisma:studio"
+  }
+}
