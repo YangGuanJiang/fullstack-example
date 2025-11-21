@@ -2,7 +2,8 @@
   "name": "fullstack-example",
   "private": true,
   "workspaces": [
-    "*"
+    "server",
+    "app"
   ],
   "scripts": {
     "dev:server": "yarn workspace server dev",
